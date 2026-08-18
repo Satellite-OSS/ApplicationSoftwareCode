@@ -1,0 +1,13 @@
+FROM docker.xuanyuan.me/node:18-alpine
+
+WORKDIR /pre
+COPY package*.json ./
+
+
+RUN npm install
+
+
+WORKDIR /app
+COPY 5 .
+
+CMD ["node", "index.js"]

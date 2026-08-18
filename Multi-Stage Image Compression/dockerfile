@@ -1,0 +1,9 @@
+FROM docker.xuanyuan.me/mathworks/matlab:r2023a
+
+COPY data /data
+
+WORKDIR /app
+
+COPY 5 /app
+
+CMD ["matlab", "-batch", "addpath(genpath('/app')); run('run_compression.m')"]

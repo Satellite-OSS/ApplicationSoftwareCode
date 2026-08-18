@@ -1,0 +1,7 @@
+train: /data/zzx/data/zzx/satellite/ShipDetection/yolov5/dataset/images/train
+val: /data/zzx/data/zzx/satellite/ShipDetection/yolov5/dataset/images/valid
+test: /data/zzx/data/zzx/satellite/ShipDetection/yolov5/dataset/images/test
+images: /data/zzx/data/zzx/satellite/ShipDetection/yolov5/dataset/images
+
+nc: 1
+names: ['ship']

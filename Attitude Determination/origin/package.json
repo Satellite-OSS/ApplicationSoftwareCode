@@ -1,0 +1,12 @@
+{
+  "name": "infrared-camera-orientation-sensing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.3.0",
+    "prettier": "^3.2.5"
+  }
+}
